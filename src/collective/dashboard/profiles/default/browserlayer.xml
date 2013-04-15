@@ -1,0 +1,6 @@
+<layers>
+  <layer
+    name="collective.dashboard"
+    interface="collective.dashboard.interfaces.ICollectiveDashboardLayer"
+    />
+</layers>

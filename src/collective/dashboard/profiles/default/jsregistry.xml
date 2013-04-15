@@ -2,22 +2,26 @@
 <object name="portal_javascripts">
   <javascript
     id="++resource++collective.dashboard.javascripts/jquery.collision.js"
-    insert-after="collapsibleformfields.js"
+    insert-before="collapsibleformfields.js"
     />
   <javascript
     id="++resource++collective.dashboard.javascripts/jquery.coords.js"
-    insert-after="collapsibleformfields.js"
+    insert-before="collapsibleformfields.js"
     />
   <javascript
     id="++resource++collective.dashboard.javascripts/jquery.draggable.js"
-    insert-after="collapsibleformfields.js"
+    insert-before="collapsibleformfields.js"
     />
   <javascript
     id="++resource++collective.dashboard.javascripts/jquery.gridster.extras.js"
-    insert-after="collapsibleformfields.js"
+    insert-before="collapsibleformfields.js"
     />
   <javascript
     id="++resource++collective.dashboard.javascripts/jquery.gridster.js"
-    insert-after="collapsibleformfields.js"
+    insert-before="collapsibleformfields.js"
+    />
+  <javascript
+    id="++resource++collective.dashboard.javascripts/dashboard.js"
+    insert-before="collapsibleformfields.js"
     />
 </object>

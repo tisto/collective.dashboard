@@ -38,6 +38,9 @@ class TestExample(unittest.TestCase):
         self.assertTrue(
             '++resource++collective.dashboard.stylesheets/jquery.gridster.css' in stylesheets_ids
         )
+        self.assertTrue(
+            '++resource++collective.dashboard.stylesheets/dashboard.css' in stylesheets_ids
+        )
 
     def test_js_registered(self):
         jsreg = getattr(self.portal, 'portal_javascripts')
@@ -60,5 +63,9 @@ class TestExample(unittest.TestCase):
         )
         self.assertTrue(
             '++resource++collective.dashboard.javascripts/jquery.gridster.js'
+            in script_ids
+        )
+        self.assertTrue(
+            '++resource++collective.dashboard.javascripts/dashboard.js'
             in script_ids
         )
